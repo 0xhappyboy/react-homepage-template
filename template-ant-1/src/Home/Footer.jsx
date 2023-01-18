@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { Row, Col } from 'antd';
+import { Row, Col, Button } from 'antd';
 
 function Footer() {
   return (
@@ -11,12 +10,14 @@ function Footer() {
             <div className="footer-center">
               <h2>Ant Design</h2>
               <div>
-                <a target="_blank " href="https://github.com/ant-design/ant-design">
-                  GitHub
+                <a target="_blank " href="https://github.com/ant-design/ant-design-pro">
+                  Ant Design Pro GitHub
                 </a>
               </div>
               <div>
-                <a href="http://pro.ant.design">Ant Design Pro</a>
+                <a target="_blank " href="http://ant.design">
+                  Ant Design
+                </a>
               </div>
               <div>
                 <a href="http://mobile.ant.design">Ant Design Mobile</a>
@@ -31,42 +32,40 @@ function Footer() {
                   Awesome Ant Design
                 </a>
               </div>
-              <div>
-                <a target="_blank " href="http://ant-design.gitee.io/">
-                  国内镜像站点 🇨🇳
-                </a>
-              </div>
             </div>
           </Col>
           <Col lg={6} sm={24} xs={24}>
             <div className="footer-center">
-              <h2>资源链接</h2>
+              <h2>Ant Design</h2>
               <div>
                 <a href="http://scaffold.ant.design">Scaffolds</a>
                 <span> - </span>
-                脚手架市场
+                <span>脚手架市场</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/dvajs/dva">dva</a> - 应用框架
-              </div>
-              <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/dvajs/dva-cli">dva-cli</a> -
-                开发工具
-              </div>
-              <div>
-                <a target="_blank" rel="noopener noreferrer" href="http://motion.ant.design">Ant Motion</a>
+                <a target="_blank" rel="noopener" href="http://motion.ant.design">Ant Motion</a>
                 <span> - </span>
-                设计动效
+                <span>设计动效</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="http://library.ant.design/">AntD Library</a>
+                <a target="_blank" rel="noopener" href="http://library.ant.design/">Axure Library</a>
                 <span> - </span>
-                Axure 部件库
+                <span>Axure 部件库</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="http://ux.ant.design">Ant UX</a>
+                <a target="_blank" rel="noopener" href="http://ux.ant.design">Ant UX</a>
                 <span> - </span>
-                页面逻辑素材
+                <span>页面逻辑素材</span>
+              </div>
+              <div>
+                <a target="_blank" rel="noopener" href="https://github.com/dvajs/dva">dva </a>
+                <span> - </span>
+                <span> 应用框架</span>
+              </div>
+              <div>
+                <a target="_blank" rel="noopener" href="https://github.com/dvajs/dva-cli">dva-cli </a>
+                <span> - </span>
+                <span> 开发工具</span>
               </div>
             </div>
           </Col>
@@ -74,43 +73,32 @@ function Footer() {
             <div className="footer-center">
               <h2>社区</h2>
               <div>
-                <a href="/changelog">
+                <a href="#">
                   更新记录
                 </a>
               </div>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/ant-design/ant-design/wiki/FAQ">
+                <a href="#">
                   常见问题
                 </a>
               </div>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://gitter.im/ant-design/ant-design">
-                  在线讨论 (中文)
+                <a target="_blank" rel="noopener" href="https://gitter.im/ant-design/ant-design-pro">
+                  在线讨论
                 </a>
               </div>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://gitter.im/ant-design/ant-design-english">
-                  在线讨论 (English)
-                </a>
-              </div>
-              <div>
-                <a target="_blank" rel="noopener noreferrer" href="http://new-issue.ant.design/">
-                  报告 Bug
-                </a>
-              </div>
-              <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/ant-design/ant-design/issues">
+                <a target="_blank" rel="noopener" href="https://github.com/ant-design/ant-design-pro/issues">
                   讨论列表
                 </a>
               </div>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="http://stackoverflow.com/questions/tagged/antd">
-                  StackOverflow
-                </a>
-              </div>
-              <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://segmentfault.com/t/antd">
-                  SegmentFault
+                <a
+                  target="_blank"
+                  rel="noopener"
+                  href="http://ant.design/docs/resource/work-with-us"
+                >
+                  加入我们
                 </a>
               </div>
             </div>
@@ -118,29 +106,42 @@ function Footer() {
           <Col lg={6} sm={24} xs={24}>
             <div className="footer-center">
               <h2>
-                <img className="title-icon" src="https://gw.alipayobjects.com/zos/rmsportal/nBVXkrFdWHxbZlmMbsaH.svg" alt="" />
                 更多产品
               </h2>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://antv.alipay.com/">AntV</a>
+                <a target="_blank" rel="noopener" href="http://ant.design/">Ant Design</a>
                 <span> - </span>
-                数据可视化
+                <span>蚂蚁 UI 设计体系</span>
               </div>
               <div>
-                <a target="_blank" rel="noopener noreferrer" href="https://eggjs.org/">Egg</a>
+                <a target="_blank" rel="noopener" href="https://antv.alipay.com/">AntV</a>
                 <span> - </span>
-                企业级 Node 开发框架
+                <span>蚂蚁数据可视化方案</span>
+              </div>
+              <div>
+                <a target="_blank" rel="noopener" href="https://eggjs.org/">Egg</a>
+                <span> - </span>
+                <span>企业级 Node Web 开发框架</span>
               </div>
             </div>
           </Col>
         </Row>
       </div>
       <Row className="bottom-bar">
-        <Col lg={4} sm={24} />
-        <Col lg={20} sm={24}>
+        <Col lg={6} sm={24}>
+          <div className="translate-button">
+            <Button ghost size="small" >
+              English
+            </Button>
+          </div>
+        </Col>
+        <Col lg={18} sm={24}>
           <span
             style={{
-              lineHeight: '16px', paddingRight: 12, marginRight: 11, borderRight: '1px solid rgba(255, 255, 255, 0.55)',
+              lineHeight: '16px',
+              paddingRight: 12,
+              marginRight: 11,
+              borderRight: '1px solid rgba(255, 255, 255, 0.55)',
             }}
           >
             <a
@@ -148,7 +149,7 @@ function Footer() {
               rel="noopener noreferrer"
               target="_blank"
             >
-              隐私权政策
+              隐私权政策 ICP
             </a>
           </span>
           <span style={{ marginRight: 24 }}>
@@ -167,5 +168,6 @@ function Footer() {
     </footer>
   );
 }
+
 
 export default Footer;
